@@ -1,1 +1,1 @@
-# nova-quick-view
+# Nova Quick View

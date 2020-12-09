@@ -1,0 +1,32 @@
+{
+    "name": "php-junior/nova-quick-view",
+    "description": "Laravel Nova Quick View.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "quick view",
+        "view",
+        "look"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpJunior\\NovaQuickView\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhpJunior\\NovaQuickView\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
